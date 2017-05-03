@@ -1,0 +1,6 @@
+调用函数
+window.onload,button.onclick之类的api调用函数的时候直接用函数名，后面不加括号；
+要将函数返回值赋值给变量的时候var lover=luvletter();要加括号。
+用EVENT(e)可以监听触发者的信息
+luvletter.onclick=love;
+function love(e){var lover=e.target.id}

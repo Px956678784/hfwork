@@ -1,0 +1,4 @@
+json在localhost上测试的时候放在本文件夹找到Localhost地址即可
+在用xml进行获取json的时候，获取的只是纯文本，需要用JSON.parse将其解析成对象。json文件内就可直接定义对象。
+JSONP是访问服务器是服务器内部定义了的回调函数，如http://gumball.wickedlysmart.com/?callback=updateSales。
+连续获取数据添加script到dom最好采用“替换”的方法，即第一次append一个元素，之后一直采用replace的方式，不至于让dom内元素过多。

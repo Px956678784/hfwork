@@ -1,0 +1,18 @@
+jquery拖放或通过html5实现
+
+html跨文档通信
+
+html5新的元素
+<section>
+<article>
+<header>
+<footer>
+<hgroup>
+<nav>
+<aside>
+<time>
+<progress>
+<abbr>
+<mark>
+
+每间隔一个列表项，设置背景色为灰色：ul li:nth-child(2n){color:gray}

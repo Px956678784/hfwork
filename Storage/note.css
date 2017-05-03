@@ -1,0 +1,15 @@
+#stickies{
+    display: flex;
+    flex-flow: row wrap;
+}
+.sticky{
+    margin: 2rem;
+    list-style-type: none;
+    padding: 2rem;
+    height: 10rem;
+    width:10rem;
+    background-color:rgb(255,245,200);
+    font-family: Century;
+    font-size: 1.5rem;
+    box-shadow: 0 0 0.5rem 0 gray;
+}
